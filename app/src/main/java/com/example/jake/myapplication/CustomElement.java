@@ -4,6 +4,7 @@ import java.util.Random;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.view.MotionEvent;
 
 /**
  * <!-- class CustomElement -->
@@ -117,5 +118,6 @@ public abstract class CustomElement {
 	 * you like.
 	 */
 	public abstract void drawHighlight(Canvas canvas);
+
 
 }// class CustomElement
