@@ -14,10 +14,11 @@
 
 
     <com.example.jake.myapplication.CustomSurfaceview
+        android:id="@+id/surface1"
         android:layout_width="match_parent"
         android:layout_height="345dp"
-        android:background="@android:color/background_light"
-        android:layout_weight="0.73" />
+        android:layout_weight="0.72"
+        android:background="@android:color/background_light" />
 
     <TextView
         android:text="TextView"
